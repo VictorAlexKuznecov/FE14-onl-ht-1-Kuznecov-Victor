@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,:active{outline: none;}
+a:focus, a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input -ms-clear{display: none;}
+button {cursor: pointer;}
+button::-moz-focus-inner {padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none}
+img{vertical-align: top}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
+/*---------------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.awesome{
+    padding-top: 100px;
+    padding-bottom: 109px;
+    text-align: center;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.awesome__title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #212121;
+    margin-bottom: 57px;
+    position: relative;
+}
+.awesome__title::after{
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    background-color: #D98943;
+    left: 538px;
+    bottom: -25px;
+}
+.awesome__text {
+    line-height: 19px;
+    color: #86878B;
+    margin-bottom: 67px;
+}
+.awesome__row {
+    display: flex;
+    justify-content: space-between;
+}
+.awesome__row-item {
+    max-width: 350px;
+}
+.awesome__row-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #D98943;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;   
+    margin: 0 auto;
+}
+.awesome__row-title {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+}
+.awesome__row-text {
+    line-height: 19px;
+    text-align: center;
+}
