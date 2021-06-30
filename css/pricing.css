@@ -6,6 +6,7 @@
     color: #86878B;
 }
 .pricing-title {
+    color: #212121;
     margin-bottom: 70px;
     position: relative;
 }
@@ -25,8 +26,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 0 -15px;
 }
 .pricing__list {
+    margin: 0 15px;
     max-width: 340px;
     width: 100%;
 }

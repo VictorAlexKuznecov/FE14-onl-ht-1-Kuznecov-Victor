@@ -1,6 +1,7 @@
-
-/* @import url(pricing2.css); */
+@import url(customers.css);
 @import url(pricing.css);
+@import url(axure.css);
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -20,10 +21,10 @@ body{
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     line-height: 42px;
-    color: #212121;
     text-transform: uppercase;
 }
 .awesome-title {
+    color: #212121;
     margin-bottom: 57px;
     position: relative;
 }
