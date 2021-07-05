@@ -1,12 +1,19 @@
 @import url(customers.css);
 @import url(pricing.css);
 @import url(axure.css);
+@import url(axit.css);
+@import url(social.css);
+@import url(footer.css);
+@import url(contact.css);
 
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #000000;
 }
+
+
+
 .awesome{
     padding-top: 100px;
     padding-bottom: 109px;
@@ -72,4 +79,16 @@ body{
 .awesome__row-text {
     line-height: 19px;
     text-align: center;
+}
+.fa-lightbulb{
+    font-size: 30px;
+    color: #D98943;
+}
+.fa-keyboard{
+    font-size: 26px;
+    color: #D98943;
+}
+.fa-bolt{
+    font-size: 33px;
+    color: #D98943;
 }
