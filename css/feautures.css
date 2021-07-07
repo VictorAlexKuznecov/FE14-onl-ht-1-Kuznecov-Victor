@@ -1,0 +1,134 @@
+.feautures {
+    /* padding-top: 100px; */
+    padding-bottom: 105px;
+    background-color: #E5E5E5;
+}
+
+.feautures__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.tabs__items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+.tabs__item {
+    display: inline-block;
+    width: 112px;
+
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 45px 35px;
+    
+    text-align: center;
+    text-transform: uppercase;
+    background: #333333;
+    border-radius: 4px;
+ 
+    color: #FFFFFF;
+}
+.tabs__item-span{
+    position: relative;
+    z-index: 3;
+}
+.tabs__item:not(:last-child){
+    margin-bottom: 10px;
+}
+.tabs__body {
+}
+.tabs__block {
+    display: none;
+    padding-left: 118px;
+ 
+    padding-top: 100px;
+    position: relative;
+}
+.tabs__block:target{
+    display: block;
+}
+.tabs__block:before{
+    content: "";
+    width: 113px;
+    height: 110px;
+    position: absolute;
+    left: -112px;
+    border-radius: 4px;
+
+}
+.tabs__block:nth-child(1){
+    background-color: #E5E5E5;
+}
+.tabs__block:nth-child(1):before{
+    background-color: #EC7979;
+}
+.tabs__block:nth-child(2){
+    background-color: #E5E5E5;
+    
+}
+.tabs__block:nth-child(2):before{
+    background-color: #EC7979;
+    left: -112px;
+    margin-top: 120px;
+
+}
+.tabs__block:nth-child(3){
+    background-color: #E5E5E5;
+}
+.tabs__block:nth-child(3):before{
+    background-color: #EC7979;
+    left: -112px;
+    margin-top: 240px;
+}
+.tabs__title {
+    max-width: 410px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 58px;
+}
+.tabs__content {
+    max-width: 572px;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #86878B;
+
+    margin-bottom: 89px;
+}
+.tabs__text {
+    
+}
+.tabs__text:not(:last-child){
+    margin-bottom: 20px;
+}
+.tabs__link {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 11px 27px;
+    transition: all .3s;
+}
+.tabs__link:hover{
+    color: #EC7979;
+    border: 1px solid #EC7979;
+    background: #FFFFFF;
+}
+
+.feautures__inner {
+    max-width: 320px;
+    max-height: 253px;
+    margin-left: 15px;
+    padding-top: 100px;
+}
+.feautures__img {
+}

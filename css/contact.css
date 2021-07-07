@@ -3,10 +3,7 @@
     padding: 80px 0 44px;
 
 }
-.container {
-}
-.title {
-}
+
 .contact-title {
     max-width: 409px;
     margin: 0 auto;
@@ -30,40 +27,88 @@
     font-size: 14px;
 }
 .form__contact {
+    text-align: center;
+}
+.contact__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
-.input__inner {
-    display: block;
-    max-width: 478px;
-    width: 100%;
+    
+    margin: 0 -15px 69px;
+
+    color: #BDBDBD;
+    line-height: 19px;  
 }
 .contact__input {
+    flex: 0 1 41%;
+    margin: 0 15px;   
+    text-align: left;
+}
+.contact__label {
+    display: block;
+    text-transform: capitalize;
+    
+}
+.contact__input-item {
     display: block;
     width: 100%;
-    background: #E5E5E5;
+    max-width: 478px;
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #BDBDBD;
 
-    border: 1px solid #000000;
+    padding-left: 5px;
+    line-height: 32px;  
 }
-.contact__input::placeholder{
-    color: #BDBDBD;
-    font-size: 14px;
-    line-height: 19px;
+.contact__input-item:last-of-type{
+    line-height: 46px;
+}
+.contact__input-item:not(:last-of-type){
+    margin-bottom: 32px;  
+} 
+.contact__input-item:focus{
+    box-shadow: 0 2px 13px rgb(127 190 213 / 93%);   
 }
 .contact__textarea {
     display: block;
-    min-height: 216px;
-    max-width: 478px;
-    width: 100%;
-    background: #E5E5E5;
-    border: 1px solid #000000;
+    flex: 0 1 41%;
+    margin: 0 15px;
+    text-align: left;
 }
-.contact__textarea::placeholder{
-    color: #BDBDBD;
-    font-size: 14px;
-    line-height: 19px;
+.contact__label-textarea {
+    display: block;
+    text-transform: capitalize;
+}
+.contact__textarea-item {
+    display: block;
+    width: 100%;
+    max-width: 478px;
+    min-height: 216px;
+    
+    background-color: #E5E5E5;
+    border-bottom: 1px solid #BDBDBD;
+    resize: none;
+    padding-left: 5px;
+    transition: all .4s;
+}
+.contact__textarea-item:focus{
+    box-shadow: 0 2px 13px rgb(127 190 213 / 93%);   
 }
 .contact__btn {
+    display: inline-block;
+
+    padding: 11px 32px 11px 31px;
+    background: #EC7979;
+    border: 1px solid #FFFFFF;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition: all .4s;
+}
+.contact__btn:focus{
+    background: green;
+}
+.contact__btn:hover{
+    color: #EC7979;
+    border: 1px solid #EC7979;
+    background: #FFFFFF;
 }
